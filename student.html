@@ -1,0 +1,174 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:pink;
+
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+input[type="text"]
+{
+	height:45px;
+	width:300px;
+	font-size:18px;
+	margin-bottom:15px;
+	background-color:#fff;
+	padding-left:40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f1}
+
+th {
+    background-color: #4CAF53;
+    color: white;
+}
+</style>
+</head>
+<body>
+<div style="height:15%;;"><h1> STUDENTDETAILS</h1></div>
+<h2>Students</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">View names</button>
+  <div class="dropdown-content">
+    
+	<a href="#">Aswini</a>
+    <a href="#">Girish ram</a>
+    <a href="#">Lakshmi</a>
+	<a href="#">Prabath ram</a>
+    <a href="#">Ramana</a>
+    <a href="#">Arjun Pandey</a>
+	<a href="#">Krunal pandya</a>
+    <a href="#">Tejaswini</a>
+    <a href="#">Karthik</a>
+	<a href="#">Kavitha</a>
+    <a href="#">Meenakshi</a>
+    <a href="#">Surya</a>
+  </div>
+</div>
+<center><img src="images1.jpg" alt="images" width="400" height="300"/></center>
+
+</br>
+<center>
+<h2>Student details</h2>
+
+<table>
+  <tr>
+    <th>Student name</th>
+    <th>interests</th>
+	<th>contact no</th>
+  </tr>
+  <tr>
+    <td>Aswini</td>
+    <td>Python,Django,C++</td>
+    <td>9785333211</td>
+  </tr>
+  <tr>
+    <td>Girish ram</td>
+    <td>Big data Analytics</td>
+    <td>9054783382</td>
+  </tr>
+  <tr>
+    <td>Lakshmi</td>
+    <td>Json,Couch db</td>
+    <td>98476384893</td>
+  </tr>
+  <tr>
+    <td>Krishnamoorthy</td>
+    <td>RDBMS,Java</td>
+    <td>9894432522</td>
+</tr>
+<tr>
+    <td>Krunal Pandey</td>
+    <td>SQL,SQL Server</td>
+    <td>9845633788</td>
+  </tr>
+  <tr>
+    <td>Meenakshi</td>
+    <td>PureScript</td>
+    <td>8965734831</td>
+  </tr>
+  <tr>
+    <td>Surya</td>
+    <td>Computer networks,Operating Systems</td>
+    <td>8499034324</td>
+  </tr>
+  <tr>
+    <td>Girish ram </td>
+    <td>Maths,Logic Puzzles</td>
+    <td>9864536733</td>
+</tr>
+<tr>
+    <td>Kavitha</td>
+    <td>Artificial Intelligence</td>
+    <td>8763452011</td>
+  </tr>
+<tr>
+    <td>Karthik</td>
+    <td>HTML,CSS,Java</td>
+    <td>956748921</td>
+</tr>
+</table>
+</br>
+<center>
+<label>view student details</label>
+</br>
+ <input type="text" name="username" placeholder="Enter studentname"/>
+ </br>
+<button type="button"><a href="nav.html">Go Back</a></button>
+</br>
+</center>
+
+
+</body>
+</html>
